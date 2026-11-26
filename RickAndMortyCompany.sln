@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DC109051-7627-4553-A804-E7449B316DB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RickAndMorty.Domain", "src\RickAndMorty.Domain\RickAndMorty.Domain.csproj", "{D539D2FE-9729-4DD9-AD94-48E7E0386F9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RickAndMorty.Application", "src\RickAndMorty.Application\RickAndMorty.Application.csproj", "{A0A4F8AD-ED4F-4A40-AA1E-381633B7B895}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RickAndMorty.Infrastructure", "src\RickAndMorty.Infrastructure\RickAndMorty.Infrastructure.csproj", "{3017EC12-B90E-4677-B586-EB8CD29759C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RickAndMorty.API", "src\RickAndMorty.API\RickAndMorty.API.csproj", "{00756C57-034B-43AA-86D3-7EF7A37D1F89}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D539D2FE-9729-4DD9-AD94-48E7E0386F9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D539D2FE-9729-4DD9-AD94-48E7E0386F9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D539D2FE-9729-4DD9-AD94-48E7E0386F9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D539D2FE-9729-4DD9-AD94-48E7E0386F9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0A4F8AD-ED4F-4A40-AA1E-381633B7B895}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0A4F8AD-ED4F-4A40-AA1E-381633B7B895}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0A4F8AD-ED4F-4A40-AA1E-381633B7B895}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0A4F8AD-ED4F-4A40-AA1E-381633B7B895}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3017EC12-B90E-4677-B586-EB8CD29759C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3017EC12-B90E-4677-B586-EB8CD29759C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3017EC12-B90E-4677-B586-EB8CD29759C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3017EC12-B90E-4677-B586-EB8CD29759C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00756C57-034B-43AA-86D3-7EF7A37D1F89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00756C57-034B-43AA-86D3-7EF7A37D1F89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00756C57-034B-43AA-86D3-7EF7A37D1F89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00756C57-034B-43AA-86D3-7EF7A37D1F89}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D539D2FE-9729-4DD9-AD94-48E7E0386F9B} = {DC109051-7627-4553-A804-E7449B316DB5}
+		{A0A4F8AD-ED4F-4A40-AA1E-381633B7B895} = {DC109051-7627-4553-A804-E7449B316DB5}
+		{3017EC12-B90E-4677-B586-EB8CD29759C1} = {DC109051-7627-4553-A804-E7449B316DB5}
+		{00756C57-034B-43AA-86D3-7EF7A37D1F89} = {DC109051-7627-4553-A804-E7449B316DB5}
+	EndGlobalSection
+EndGlobal
